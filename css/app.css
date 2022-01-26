@@ -1,0 +1,451 @@
+/*!******************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/app.scss ***!
+  \******************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Urbanist&display=swap);
+/*!**********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/app.scss (1) ***!
+  \**********************************************************************************************************************************************************/
+/* By Athlon Front-End Team */
+/* Core variables */
+/**
+ * Variables
+*/
+/* Typography */
+/* Breakpoints */
+/* Paths */
+/* Grid setup */
+/* Colour palette */
+/* CSS Reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  border: none;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary,
+main {
+  display: block;
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  background: transparent;
+  text-decoration: none;
+}
+
+button,
+input {
+  line-height: normal;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+}
+
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+textarea:focus,
+input:focus {
+  outline: 0;
+}
+
+input {
+  margin: 0;
+  padding: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+/* CSS print */
+/**
+ * Print Stylesheet
+*/
+@media print {
+  @page {
+    margin: 1cm;
+  }
+  body {
+    color: #555671;
+  }
+
+  a {
+    page-break-inside: avoid;
+  }
+
+  blockquote {
+    page-break-inside: avoid;
+  }
+
+  table,
+pre {
+    page-break-inside: avoid;
+  }
+
+  ul, ol, dl {
+    page-break-before: avoid;
+  }
+}
+/* Fonts */
+/*
+  Fonts
+*/
+/* Mixins, helpers and functions */
+/**
+ * Helper mixins
+*/
+/* Vendor */
+/* Components */
+/* Browser specific styles */
+/**
+ * Dirty hacks, yes internet explorer, we are looking at you
+*/
+/* Demo Page styles */
+body {
+  background: #fff;
+  font-family: "Urbanist", sans-serif;
+  min-width: 320px;
+  font-size: 18px;
+  color: #555671;
+}
+
+.container {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.accent-color {
+  color: #FF7549;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 12px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+}
+.header {
+  min-height: 121px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #DAD9D6;
+}
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.header__logo {
+  margin: 0 16px 0 0;
+}
+
+.header-actions {
+  margin: 0 6px 0 auto;
+  padding: 5px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.header-actions__item {
+  margin: 0 10px -2px 0;
+}
+.header-actions__component {
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #181A3F;
+  line-height: 167%;
+  letter-spacing: 0.72px;
+  -webkit-transition: opacity ease 0.5s;
+  transition: opacity ease 0.5s;
+}
+.header-actions__component:hover {
+  opacity: 0.5;
+}
+
+.header-toggle {
+  cursor: pointer;
+  position: relative;
+  min-width: 54px;
+  height: 23px;
+  z-index: 101;
+  -webkit-transition: opacity ease 0.5s;
+  transition: opacity ease 0.5s;
+}
+.header-toggle:hover {
+  opacity: 0.5;
+}
+.header-toggle .header-toggle-bar {
+  background: transparent;
+}
+.header-toggle .header-toggle-bar::after,
+.header-toggle .header-toggle-bar::before {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background: #181A3F;
+  content: "";
+  height: 3px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  width: 100%;
+}
+.header-toggle .header-toggle-bar {
+  margin-top: 0;
+}
+.header-toggle .header-toggle-bar::after {
+  margin-top: 9px;
+}
+.header-toggle .header-toggle-bar::before {
+  margin-top: -9px;
+}
+.header-toggle.expanded .header-toggle-bar {
+  background: transparent;
+}
+.header-toggle.expanded .header-toggle-bar::after, .header-toggle.expanded .header-toggle-bar::before {
+  background: #181A3F;
+  margin-top: 0;
+}
+.header-toggle.expanded .header-toggle-bar::after {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.header-toggle.expanded .header-toggle-bar::before {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.header-menu {
+  background: linear-gradient(264.47deg, #2E43F0 29.39%, #6677FF 93.49%);
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+  position: fixed;
+  left: -100%;
+  top: 121px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  width: 100%;
+  z-index: 1;
+  border-top: 1px solid #fff;
+}
+.header-menu.expanded {
+  left: 0;
+}
+.header-menu ul {
+  list-style: none;
+  text-align: center;
+}
+.header-menu li:not(:last-child) {
+  margin-bottom: 20px;
+}
+.header-menu li a {
+  color: #fff;
+  font-size: 24px;
+  line-height: 110%;
+  padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    min-height: 81px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header {
+    min-height: 60px;
+  }
+  .header__logo {
+    margin: 0 10px 0 0;
+  }
+
+  .header-actions {
+    margin: 0 0 0 auto;
+  }
+  .header-actions__component {
+    font-size: 14px;
+  }
+
+  .header-toggle {
+    min-width: 34px;
+  }
+}
+.logo-svg {
+  display: block;
+  width: 247px;
+  height: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo-svg {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo-svg {
+    width: 170px;
+  }
+}
